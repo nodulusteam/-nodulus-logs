@@ -4,19 +4,19 @@
       {
         "type": "winston.transports.File",
         "name": "info-file",
-        "filename": "./tests/logs/filelog-info.log",
+        "filename": "./logs/filelog-info.log",
         "level": "info"
       },
       {
         "type": "winston.transports.File",
         "name": "error-file",
-        "filename": "./tests/logs/filelog-error.log",
+        "filename": "./logs/filelog-error.log",
         "level": "error"
       },
        {
         "type": "winston.transports.File",
         "name": "warn-file",
-        "filename": "./tests/logs/filelog-warn.log",
+        "filename": "./logs/filelog-warn.log",
         "level": "warn"
       },
        {
