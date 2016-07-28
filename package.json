@@ -1,6 +1,6 @@
 {
   "name": "@nodulus/logs",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "",
   "main": "index.js",
   "typescript": {
@@ -30,7 +30,8 @@
     "tslint": "^3.13.0",
     "typescript": "^1.8.10"
   },
-  "dependencies": {   
+  "dependencies": {
+    "@nodulus/config": "^1.0.48",
     "winston": "^2.2.0"
   }
 }
