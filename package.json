@@ -1,6 +1,6 @@
 {
   "name": "@nodulus/logs",
-  "version": "0.0.15",
+  "version": "0.0.18",
   "description": "",
   "main": "index.js",
   "typescript": {
@@ -13,7 +13,10 @@
     "type": "git",
     "url": "https://github.com/nodulusteam/-nodulus-logs"
   },
-  "author": "",
+  "keywords": [
+    "nodulus", "logs"
+  ],
+  "author": "nodulus",
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.5.0",
@@ -31,7 +34,7 @@
     "typescript": "^1.8.10"
   },
   "dependencies": {
-    "@nodulus/config": "^1.0.48",
+    "@nodulus/config": "^1.0.52",
     "winston": "^2.2.0"
   }
 }

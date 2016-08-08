@@ -1,8 +1,8 @@
 var winston = require('winston');
-var config = new (require('@nodulus/config').config);
+var config =require('@nodulus/config').config;
 var fs = require('fs');
 var path = require('path');
-if (!config.logs) {
+if (!config.appSettings.logs) {
     var local_config_template = require('./templates/config.json');
     config.mergeConfiguration(local_config_template.logs, 'logs');
 }
