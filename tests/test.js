@@ -1,6 +1,6 @@
 // tests/config.js
 
-var config = new (require('@nodulus/config').config);
+var config = require('@nodulus/config').config;
 
 var local_config_template = require('./config/config.json');
 

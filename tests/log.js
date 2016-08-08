@@ -6,7 +6,7 @@ describe('logs', function () {
   it('getSubtotal() should return 0 if no items are passed in', function () {
 
 
-    var config = new (require('@nodulus/config').config);
+    var config = require('@nodulus/config').config;
     var local_config_template = require('./config/config.json');
     config.mergeConfiguration(local_config_template.logs, 'logs');
     var logger = require('../index').logger;
